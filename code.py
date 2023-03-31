@@ -11,7 +11,6 @@ def test():
     download_label.config(text="Скорость Загрузки:\n-" + str(download_speed) + "MbPs")
     upload_label.config(text="Скорость Отдачи:\n-" + str(upload_speed) + "MbPs")
 
-#p.s если долго будет загружать ничего страшного, просто идет анализ, через несколько секунд все подгрузит
 root = Tk()
 
 root.title("spedtest")
